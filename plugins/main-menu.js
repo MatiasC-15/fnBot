@@ -27,7 +27,7 @@ let tags = {
 
 const defaultMenu = {
   before: `
-*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷*
+*_*BIENVENIDO QUERIDO USUARIO!*_*
 
 “ _*HOLA *%name*, ESTE ES EL MENU DE ONYX BOT*_ "
 
@@ -40,7 +40,7 @@ _*EN QUE PUEDO SERVIRTE!*_! ”
 │  ≡◦ *💫 Nivel ∙* %level
 ╰──⬣
 %readmore
-*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷*
+*╰──⬣╰──⬣╰──⬣╰──⬣╰──⬣╰──⬣*
 
 \t\t\t*L I S T A  -  M E N Ú S*
 `.trimStart(),
