@@ -1,8 +1,12 @@
 const handler = async (m, {conn}) => {
   m.reply(global.vv2);
 };
-handler.command = /^(vv2)$/i;
+handler.command = /^(vividos|vv2)$/i;
 export default handler;
+handler.admin = true
+handler.group = true
+handler.botAdmin = true
+
 global.vv2 = `
 1 SOPORTE  POR EQUIPO
 NO EXPLOSIVOS
