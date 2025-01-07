@@ -1,13 +1,10 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.formu);
+  m.reply(global.SpamLink);
 };
-handler.command = /^(formulario|formu)$/i;
+handler.command = /^(formulario)$/i;
 export default handler;
-handler.admin = true
-handler.group = true
-handler.botAdmin = true
+global.SpamLink = `
 
-global.formulario = `
 LLENAR FORMULARIO
 
 𝑵𝑰𝑪𝑲 𝑭𝑭:
