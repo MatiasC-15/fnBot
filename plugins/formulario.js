@@ -1,9 +1,13 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.Ficha);
+  m.reply(global.formu);
 };
-handler.command = /^(Ficha)$/i;
+handler.command = /^(formulario|formu)$/i;
 export default handler;
-global.Ficha = `
+handler.admin = true
+handler.group = true
+handler.botAdmin = true
+
+global.formulario = `
 LLENAR FORMULARIO
 
 𝑵𝑰𝑪𝑲 𝑭𝑭:
