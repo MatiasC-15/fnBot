@@ -28,10 +28,12 @@ let tags = {
 const defaultMenu = {
   before: `
 _*BIENVENIDO QUERIDO USUARIO!*_
+⚜️𝘽𝙊𝙏 𝑫𝑬 𝑭𝑵 𝑬-𝑺𝑷𝑶𝑹𝑻 ⚜️
 
-“ _*HOLA *%name*, ESTE ES EL MENU DE ONYX BOT*_ "
+“ _*HOLA %name*, *ESTE ES EL MENU DE ONYX BOT*_ "
 
-_*EN QUE PUEDO SERVIRTE!*_! ”
+𝑬𝑺𝑻𝑬 𝑩𝑶𝑻 𝑬𝑺 𝑷𝑹𝑶𝑷𝑰𝑬𝑫𝑨𝑫 𝑷𝑹𝑰𝑽𝑨𝑫𝑨       𝑫𝑬 𝑭𝑵 𝑬-𝑺𝑷𝑶𝑹𝑻
+╰━━━━━━━━━━━⬣”
 
 ╭──⬣「 *Info User* 」⬣
 │  ≡◦ *👻 Nombre ∙* %name
@@ -40,7 +42,7 @@ _*EN QUE PUEDO SERVIRTE!*_! ”
 │  ≡◦ *💫 Nivel ∙* %level
 ╰──⬣
 %readmore
-*╰──⬣╰──⬣╰──⬣╰──⬣╰──⬣╰──⬣*
+*╰──⬣╰──⬣╰──⬣╰──⬣╰──⬣*
 
 \t\t\t*L I S T A  -  M E N Ú S*
 `.trimStart(),
