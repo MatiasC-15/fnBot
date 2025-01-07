@@ -1,13 +1,9 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.vv2);
+  m.reply(global.SpamLink);
 };
-handler.command = /^(vividos|vv2)$/i;
+handler.command = /^(vv2)$/i;
 export default handler;
-handler.admin = true
-handler.group = true
-handler.botAdmin = true
-
-global.vv2 = `
+global.SpamLink = `
 1 SOPORTE  POR EQUIPO
 NO EXPLOSIVOS
 2 THIVA POR EQUIPO
